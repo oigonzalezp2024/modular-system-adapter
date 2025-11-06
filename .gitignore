@@ -1,0 +1,41 @@
+
+# 1. Directorios de Output y Logs (Generados por la aplicación)
+
+# Excluye la carpeta de logs y archivos de logs.
+logs/
+*.log
+
+# 2. Entornos Virtuales y Dependencias (Python)
+
+# Entornos virtuales (venv, env, .venv, etc.)
+venv/
+env/
+.venv/
+*/venv/
+*/.venv/
+
+# Paquetes y dependencias (típico de pip)
+__pycache__/  # CORREGIDO: Nombre correcto de la carpeta de caché
+*.pyc
+*.o
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+
+# 3. Archivos de Entrada y Salida
+
+# Excluye el contenido de la carpeta de ENTRADA,
+# pero permite que los archivos cruciales sean versionados (re-inclusión).
+
+input/*
+!input/apache.conf
+!input/mysql.conf
+
+# Excluye la carpeta de SALIDA donde se copian los archivos
+output/*
+!output/.gitkeep
