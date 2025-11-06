@@ -30,8 +30,8 @@ logger = logging.getLogger('FileApp')
 if __name__ == "__main__":
 
     data = [
-        ['../etc/apache2/apache2.conf', './output/apache2.conf'],
-        ['../etc/apache2/ports.conf', './output/ports.conf']
+        ['/etc/apache2/apache2.conf', './output/apache2.conf'],
+        ['/etc/apache2/ports.conf', './output/ports.conf']
     ]
     comandos = [
         "cd output",
