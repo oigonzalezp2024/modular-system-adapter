@@ -15,4 +15,4 @@ def crear_zip(archivo_zip, *items):
                 print(f"Error: {item} no es un archivo o carpeta válido")
 
 # Ejemplo de uso
-crear_zip('../archivo.zip', './modular-system-adapter')
+crear_zip('../archivo.zip', '../modular-system-adapter')
