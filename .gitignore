@@ -15,7 +15,7 @@ env/
 */.venv/
 
 # Paquetes y dependencias (típico de pip)
-__pycache__/  # CORREGIDO: Nombre correcto de la carpeta de caché
+__pycache__/
 *.pyc
 *.o
 *.pyd
